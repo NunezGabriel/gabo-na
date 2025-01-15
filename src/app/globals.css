@@ -18,3 +18,30 @@
   width: 100%;
   position: absolute;
 }
+
+.whiteColorContainer {
+}
+
+.whiteColorContainer:hover .whiteColor {
+  color: white;
+}
+
+/* Imagen con animación */
+.rotating-image {
+  animation: rotatePause 7s ease-in-out infinite;
+}
+
+/* Animación de rotación */
+@keyframes rotatePause {
+  0% {
+    transform: rotate(0deg); /* Posición inicial */
+  }
+  25% {
+    transform: rotate(180deg); /* Gira 90 grados */
+  }
+  100% {
+    transform: rotate(
+      180deg
+    ); /* Se mantiene en 90 grados hasta el siguiente ciclo */
+  }
+}
