@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,4 +7,14 @@
 
 .myFont {
   font-family: "Montserrat", sans-serif;
+}
+.myFont2 {
+  font-family: "Markazi Text", serif;
+}
+
+#particles {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
