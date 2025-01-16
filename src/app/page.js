@@ -10,7 +10,7 @@ export default function Home() {
       <ParticleBg id="particles" />
       <NavbarComponent />
       <section className="w-100% mb-8">
-        <div className="mx-auto mt-24 flex flex-col gap-10 items-center justify-center">
+        <div className="mx-auto mt-12 flex flex-col gap-10 items-center justify-center">
           <div className="text-center myFont2 grid gap-7">
             <h1 className="text-6xl">Gabriel Nunez</h1>
             <p className="text-gray-500 text-2xl">
