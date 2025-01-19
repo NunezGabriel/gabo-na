@@ -12,21 +12,21 @@ const NavbarComponent = () => {
         </Link>
         <Link
           className="pb-3 grid items-center hover:text-[#69b3a2] hover:border-b-[3px] border-[#69b3a2] hover:backdrop-blur-sm hover:bg-opacity-70 transition duration-150 ease-out hover:ease-in"
-          href="/"
+          href="/aboutMe"
         >
           ABOUT ME
         </Link>
         <Link
           className="pb-3 grid items-center hover:text-[#69b3a2] hover:border-b-[3px] border-[#69b3a2] hover:backdrop-blur-sm hover:bg-opacity-70 transition duration-150 ease-out hover:ease-in"
-          href="/"
+          href="/myWork"
         >
           MY WORK
         </Link>
         <Link
           className="pb-3 grid items-center hover:text-[#69b3a2] hover:border-b-[3px] border-[#69b3a2] hover:backdrop-blur-sm hover:bg-opacity-70 transition duration-150 ease-out hover:ease-in"
-          href="/"
+          href="/services"
         >
-          SERVICIOS
+          SERVICES
         </Link>
       </div>
     </div>
