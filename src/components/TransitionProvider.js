@@ -4,25 +4,23 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import TransitionOverlay from "./TrasitionOverlay";
 
-const TransitionProvider = ({ children }) => {
+export default function TransitionProvider({ children }) {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
-    setIsTransitioning(true);
+    setIsTransitioning(true); // Inicia la animación de entrada
     const timeout = setTimeout(() => {
-      setIsTransitioning(false);
-    }, 800);
+      setIsTransitioning(false); // Inicia la animación de salida
+    }, 700); // Tiempo total (entrada + pausa + salida)
 
     return () => clearTimeout(timeout);
-  }, [pathname]);
+  }, [pathname]); // Ejecutar cada vez que cambia la ruta
 
   return (
-    <>
-      {isTransitioning && <TransitionOverlay isVisible={isTransitioning} />}
-      {children}
-    </>
+    <div>
+      <TransitionOverlay isVisible={isTransitioning} />
+      {!isTransitioning && children}
+    </div>
   );
-};
-
-export default TransitionProvider;
+}
