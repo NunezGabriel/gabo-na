@@ -21,7 +21,7 @@ const SkillsComponent = () => {
                 className={`rounded-full p-4 bg-gray-200 ${
                   service.state === "true"
                     ? "hover:bg-[#69b3a2]"
-                    : "hover:bg-[#ff9837]"
+                    : "hover:bg-gray-300"
                 } transition duration-150 w-32 h-32 ease-out hover:ease-in whiteColorContainer flex justify-center items-center mb-10`}
               >
                 {service.indicator === "Front" ? (
@@ -33,12 +33,12 @@ const SkillsComponent = () => {
                 ) : service.indicator === "Extra" ? (
                   <FaTools size={50} className="whiteColor" />
                 ) : (
-                  <FaCloud size={50} className="whiteColor" />
+                  <FaCloud size={50} className="" color="white" />
                 )}
               </div>
               <h1
                 className={`text-2xl ${
-                  service.state === "true" ? "text-[#69b3a2]" : "text-[#ff9837]"
+                  service.state === "true" ? "text-[#69b3a2]" : "text-gray-300"
                 } myFont`}
               >
                 {service.Name}
@@ -51,7 +51,7 @@ const SkillsComponent = () => {
                       className={`text-white myFont2 px-4 rounded-2xl ${
                         service.state === "true"
                           ? "bg-[#3d655c]"
-                          : "bg-[#ff9837]"
+                          : "bg-gray-300"
                       } `}
                     >
                       <h1 className="text-lg">{skill}</h1>
