@@ -64,3 +64,84 @@ export const services = [
     Skills: ["AWS", "Azure", "Docker", "Kubernetes"],
   },
 ];
+
+export const friends = [
+  {
+    id: 1,
+    name: "Marco Figueroa",
+    work: 20,
+    webSite: "...",
+  },
+  {
+    id: 2,
+    name: "Juan Perez",
+    work: 10,
+    webSite: "...",
+  },
+  {
+    id: 3,
+    name: "Maria Lopez",
+    work: 15,
+    webSite: "...",
+  },
+  {
+    id: 4,
+    name: "Pedro Martinez",
+    work: 5,
+    webSite: "...",
+  },
+  {
+    id: 5,
+    name: "Jose Hernandez",
+    work: 8,
+    webSite: "...",
+  },
+];
+
+export const projectsCard = [
+  {
+    id: 1,
+    image: "https://via.placeholder.com/150",
+    name: "Project 1",
+    description: "Description 1",
+    technologies: ["React", "NodeJS", "MongoDB"],
+    webSite: "...",
+    githubRepository: "...",
+  },
+  {
+    id: 2,
+    image: "https://via.placeholder.com/150",
+    name: "Project 2",
+    description: "Description 2",
+    technologies: ["React", "NodeJS", "MongoDB"],
+    webSite: "...",
+    githubRepository: "...",
+  },
+  {
+    id: 3,
+    image: "https://via.placeholder.com/150",
+    name: "Project 3",
+    description: "Description 3",
+    technologies: ["React", "NodeJS", "MongoDB"],
+    webSite: "...",
+    githubRepository: "...",
+  },
+  {
+    id: 4,
+    image: "https://via.placeholder.com/150",
+    name: "Project 4",
+    description: "Description 4",
+    technologies: ["React", "NodeJS", "MongoDB"],
+    webSite: "...",
+    githubRepository: "...",
+  },
+  {
+    id: 5,
+    image: "https://via.placeholder.com/150",
+    name: "Project 5",
+    description: "Description 5",
+    technologies: ["React", "NodeJS", "MongoDB"],
+    webSite: "...",
+    githubRepository: "...",
+  },
+];
