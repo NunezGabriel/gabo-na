@@ -10,7 +10,7 @@ import { services } from "@/scripts/data";
 const SkillsComponent = () => {
   return (
     <div className="w-100% mb-8">
-      <div className="mx-auto flex px-16 flex-wrap justify-center">
+      <div className="mx-auto flex px-16 md:px-14 flex-wrap justify-center">
         {services.map((service, index) => {
           return (
             <div

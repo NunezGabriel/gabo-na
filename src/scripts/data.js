@@ -1,7 +1,7 @@
 export const services = [
   {
     id: 1,
-    Name: "Frontend Developer",
+    Name: "Frontend Dev",
     indicator: "Front",
     state: "true",
     Skills: [
@@ -19,7 +19,7 @@ export const services = [
   },
   {
     id: 2,
-    Name: "Backend Developer",
+    Name: "Backend Dev",
     indicator: "Back",
     state: "true",
     Skills: [
